@@ -1,4 +1,0 @@
-Develop Log:
-repair the following bug:
-1.customer logout uncorrectly leaving the server's socket on causing the user can't relogin.
-    method: server create a heart beat thread to keep monitor every thread and its socket and online user
