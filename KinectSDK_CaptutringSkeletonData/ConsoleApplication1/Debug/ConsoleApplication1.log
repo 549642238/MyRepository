@@ -1,0 +1,270 @@
+﻿生成启动时间为 2016/6/5 22:33:12。
+     1>项目“G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Microsoft\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt funcinv.cpp funcinv_initialize.cpp funcinv_terminate.cpp funcpinv.cpp funcpinv_initialize.cpp funcpinv_terminate.cpp ik_solver.cpp imitation.cpp log.cpp main.cpp math_function.cpp robot.cpp rtGetInf.cpp rtGetNaN.cpp rt_nonfinite.cpp zmp.cpp
+         zmp.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         rt_nonfinite.cpp
+         rtGetNaN.cpp
+         rtGetInf.cpp
+         robot.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(73): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(89): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(140): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(193): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(278): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(293): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(311): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(326): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(345): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(363): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(378): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(396): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(412): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(431): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.cpp(448): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         math_function.cpp
+         main.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+         log.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+         imitation.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\log.h(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(209): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(308): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(314): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(347): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(349): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(351): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(353): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(375): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(377): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(460): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(472): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(474): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(476): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(478): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(480): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(482): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(484): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(486): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(488): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(490): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(492): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(494): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(496): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(500): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(502): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(504): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(507): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(539): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(541): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(543): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(545): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(547): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(549): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(551): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(553): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(555): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(557): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(559): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(561): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(563): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(565): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(567): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(569): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(571): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(573): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(575): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(679): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(793): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(945): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(958): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(966): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(981): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(987): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(996): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(1000): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(1003): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(1006): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\imitation.cpp(1008): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         ik_solver.cpp
+     1>g:\课程文档\大四上学期\nao机器人\项目\imitation\vs\kinectsdk_captutringskeletondata\consoleapplication1\robot.h(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         funcpinv_terminate.cpp
+         funcpinv_initialize.cpp
+         funcpinv.cpp
+         funcinv_terminate.cpp
+         funcinv_initialize.cpp
+         funcinv.cpp
+         正在生成代码...
+       Link:
+         F:\Microsoft\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO OpenNI2.lib glut32.lib NiTE2.lib opencv_calib3d249.lib opencv_calib3d249d.lib opencv_contrib249.lib opencv_contrib249d.lib opencv_core249.lib opencv_core249d.lib opencv_features2d249.lib opencv_features2d249d.lib opencv_flann249.lib opencv_flann249d.lib opencv_gpu249.lib opencv_gpu249d.lib opencv_highgui249.lib opencv_highgui249d.lib opencv_imgproc249.lib opencv_imgproc249d.lib opencv_legacy249.lib opencv_legacy249d.lib opencv_ml249.lib opencv_ml249d.lib opencv_nonfree249.lib opencv_nonfree249d.lib opencv_objdetect249.lib opencv_objdetect249d.lib opencv_ocl249.lib opencv_ocl249d.lib opencv_photo249.lib opencv_photo249d.lib opencv_stitching249.lib opencv_stitching249d.lib opencv_superres249.lib opencv_superres249d.lib opencv_ts249.lib opencv_ts249d.lib opencv_video249.lib opencv_video249d.lib opencv_videostab249.lib opencv_videostab249d.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\funcinv.obj
+         Debug\funcinv_initialize.obj
+         Debug\funcinv_terminate.obj
+         Debug\funcpinv.obj
+         Debug\funcpinv_initialize.obj
+         Debug\funcpinv_terminate.obj
+         Debug\ik_solver.obj
+         Debug\imitation.obj
+         Debug\log.obj
+         Debug\math_function.obj
+         Debug\robot.obj
+         Debug\rtGetInf.obj
+         Debug\rtGetNaN.obj
+         Debug\rt_nonfinite.obj
+         Debug\zmp.obj
+         ConsoleApplication1.vcxproj -> G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\Debug\ConsoleApplication1.exe
+     1>已完成生成项目“G:\课程文档\大四上学期\NAO机器人\项目\Imitation\VS\KinectSDK_CaptutringSkeletonData\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.38

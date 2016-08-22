@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="robot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="math_function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcinv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcinv_initialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcinv_terminate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcpinv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcpinv_initialize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcpinv_terminate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rt_nonfinite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtGetInf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtGetNaN.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ik_solver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imitation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="robot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcinv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcinv_initialize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcinv_terminate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcinv_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcpinv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcpinv_initialize.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcpinv_terminate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcpinv_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rt_nonfinite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtGetInf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtGetNaN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtwtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ik_solver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imitation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
