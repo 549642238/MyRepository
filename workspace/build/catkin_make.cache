@@ -1,0 +1,2 @@
+my_message:my_package:rbx1/rbx1:rbx1/rbx1_apps:rbx1/rbx1_bringup:rbx1/rbx1_description:rbx1/rbx1_dynamixels:rbx1/rbx1_nav:rbx1/rbx1_speech:rbx1/rbx1_vision
+-DCATKIN_DEVEL_PREFIX=/home/freg/ros/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/freg/ros/workspace/install -G Unix Makefiles

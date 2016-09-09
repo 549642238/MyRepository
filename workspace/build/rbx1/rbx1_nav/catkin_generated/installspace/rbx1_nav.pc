@@ -1,0 +1,8 @@
+prefix=/home/freg/ros/workspace/install
+
+Name: rbx1_nav
+Description: Description of rbx1_nav
+Version: 0.4.0
+Cflags: -I/home/freg/ros/workspace/install/include
+Libs: -L/home/freg/ros/workspace/install/lib 
+Requires: dynamic_reconfigure

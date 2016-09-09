@@ -1,0 +1,8 @@
+prefix=/home/freg/ros/workspace/devel
+
+Name: rbx1_bringup
+Description: Description of rbx1_bringup
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/freg/ros/workspace/devel/lib 
+Requires: 

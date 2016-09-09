@@ -1,0 +1,8 @@
+prefix=/home/freg/ros/workspace/install
+
+Name: my_package
+Description: Description of my_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/freg/ros/workspace/install/lib 
+Requires: my_message

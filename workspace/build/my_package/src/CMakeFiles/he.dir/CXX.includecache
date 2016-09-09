@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/freg/ros/workspace/src/my_package/include/my_package/hello.h
+iostream
+-
+
+/home/freg/ros/workspace/src/my_package/src/he.cpp
+iostream
+-
+hello.h
+/home/freg/ros/workspace/src/my_package/src/hello.h
+

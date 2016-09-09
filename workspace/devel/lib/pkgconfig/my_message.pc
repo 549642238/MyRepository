@@ -1,0 +1,8 @@
+prefix=/home/freg/ros/workspace/devel
+
+Name: my_message
+Description: Description of my_message
+Version: 0.0.0
+Cflags: -I/home/freg/ros/workspace/devel/include
+Libs: -L/home/freg/ros/workspace/devel/lib 
+Requires: message_runtime
