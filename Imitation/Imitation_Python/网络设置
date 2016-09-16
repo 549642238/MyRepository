@@ -1,0 +1,8 @@
+方法一：
+cmd查看VmwareNet1 192.168.102.1
+虚拟机设置host-only
+Ubuntu sudo ifconfig eth0 192.168.102.100 netmask 255.255.0.0
+sudo /etc/init.d/networking restart
+Windows ping 192.168.102.100
+方法二：
+虚拟机设置桥接模式
