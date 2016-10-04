@@ -1,0 +1,2 @@
+/home/freg/slam/octomap/build/src/CMakeFiles/joinmap.dir
+/home/freg/slam/octomap/build/src/CMakeFiles/pcd2octomap.dir
