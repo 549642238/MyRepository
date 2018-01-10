@@ -1,30 +1,54 @@
-// 有一个长为n的数列a0a1,...,an-1，请求出这个序列中最长的上升子序列的长度。上升子序列指对于任意的i<j，满足ai<aj
-// 1<=n<=1000
-// 0<=ai<=100000
-// d[i] = max{1, d[j]+1(0<=j<i && a[j]<a[i])}
 #include <iostream>
+#include <vector>
+#include <queue>
 using namespace std;
 
-int main(){
-	int n, a[1000], d[1001];
-	cin>>n;
-	for(int i=0;i<n;++i){
-		cin>>a[i];
-	}
-	d[0] = 1;
-	int len = 1;
-	for(int i=1;i<n;++i){
-		int max = 1;
-		for(int j=0;j<i;++j){
-			if(a[j]<a[i] && max<(d[j]+1)){
-				max = d[j]+1;
+	const int INF = 100000000;
+    struct Node{
+        int to, cost;
+        friend bool operator<(const Node& a, const Node& b){
+            return a.cost<b.cost;
+        }
+        friend bool operator>(const Node& a, const Node& b){
+            return a.cost>b.cost;
+        }
+        Node(int b,int c):to(b),cost(c){}
+    };
+int networkDelayTime(vector<vector<int> >& times, int N, int K) {
+		vector<int> dis(N+1,INF);
+        priority_queue<Node, vector<Node>, greater<Node> > d;
+        d.push(Node(K,0));
+        vector<vector<pair<int,int> > > edge(N+1);
+        for(int i=0;i<times.size();++i){
+            edge[times[i][0]].push_back(make_pair(times[i][1], times[i][2]));
+        }
+		while(!d.empty()){
+            Node temp = d.top();
+            d.pop();
+            dis[temp.to] = temp.cost;
+			for(int i=0;i<edge[temp.to].size();++i){
+                if(dis[edge[temp.to][i].first] > (dis[temp.to]+edge[temp.to][i].second)){
+					cout<<edge[temp.to][i].first<<" "<<dis[temp.to]+edge[temp.to][i].second<<endl;
+					d.push(Node(edge[temp.to][i].first,dis[temp.to]+edge[temp.to][i].second));
+				}
 			}
-		}
-		d[i] = max;
-		if(d[i] > len){
-			len = d[i];
-		}
-	}
-	cout<<len<<endl;
+        }
+        int time = -1;
+        for(int i=1;i<=N;++i){
+            if(dis[i] == INF){
+                return -1;
+            }
+            if(dis[i]>time){
+                time = dis[i];
+            }
+        }
+        return time;
+    }
+int main(){
+	vector<vector<int> > times;
+	times.push_back({1,2,1});
+	times.push_back({2,3,2});
+	times.push_back({1,3,2});
+	cout<<networkDelayTime(times,3,1)<<endl;
 	return 0;
 }
