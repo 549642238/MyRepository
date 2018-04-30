@@ -1,4 +1,4 @@
-// Realization of smart pointer
+// Implementation of smart shared pointer
 #include <iostream>
 using namespace std;
 
@@ -48,9 +48,14 @@ public:
 };
 
 int main(){
+	/*
 	Ptr<int> pa(new int(4));
 	Ptr<int> pb = Ptr<int>(new int(2));
 	pb = pa;
 	cout<<"------------"<<endl;
+	*/
+	int* same = new int(3);
+	Ptr<int> p1(same);
+	Ptr<int> p2(same);			// 对于shared_ptr来讲，这样调用也是错误的。智能指针的一般初始化方式最好是smart_ptr<T> p(new T);
 	return 0;
 }
