@@ -24,14 +24,14 @@ int main(){
 	cout<<"vector = 1,2...10"<<endl;
 	int sum = accumulate(v.begin(), v.end(), 0);
 	cout<<"sum = "<<sum<<endl;
-	cout<<"Find 1 = "<<(find(v.begin(), v.end(), 1)!=v.end())<<endl;
+	cout<<"Find 1 = "<<(find(v.begin(), v.end(), 1)!=v.end())<<endl;			// Invoke operator== in vector elements
 	cout<<"Find 11 = "<<(find(v.begin(), v.end(), 11)!=v.end())<<endl;
 	vector<int> v2;
 	for(int i=0;i<10;++i){
 		v2.push_back(i);
 	}
 	vector<int>::iterator it = v.begin();
-	while((it=find_first_of(it, v.end(), v2.begin(), v2.end()))!=v.end()){
+	while((it=find_first_of(it, v.end(), v2.begin(), v2.end()))!=v.end()){		// Invoke operator== in vector elements
 		cout<<"Find "<<*it<<endl;
 		++it;
 	}
@@ -61,7 +61,7 @@ int main(){
 	}
 	cout<<endl;
 	cout<<"Sort desc"<<endl;
-	sort(v.begin(), v.end(), compare);
+	sort(v.begin(), v.end(), compare);			// Invoke operator< in vector elements
 	for(vector<int>::iterator it=v.begin();it!=v.end();++it){
 		cout<<*it<<" ";
 	}
