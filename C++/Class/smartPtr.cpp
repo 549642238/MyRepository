@@ -24,13 +24,13 @@ Ptr<T>::Ptr(const Ptr& ptr):data(ptr.data), count(ptr.count){
 template<typename T>
 Ptr<T>& Ptr<T>::operator=(const Ptr& ptr){
 	if(data != ptr.data){
-			if(--(*count) == 0){
-				delete count;
-				delete data;
-			}
-			data = ptr.data;
-			count = ptr.count;
-			++(*count);
+		if(--(*count) == 0){
+			delete count;
+			delete data;
+		}
+		data = ptr.data;
+		count = ptr.count;
+		++(*count);
 	}
 	return *this;
 }
