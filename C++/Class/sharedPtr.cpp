@@ -33,10 +33,12 @@ public:
 		cout<<"Construct Ptr(Ptr)"<<endl;
 	}
 	Ptr& operator=(const Ptr& ptr){
-		if(--(cp->use) == 0){
-			delete cp;
+		if(ptr.cp != cp){
+			if(--(cp->use) == 0){
+				delete cp;
+			}
+			cp = ptr.cp;
 		}
-		cp = ptr.cp;
 		++((ptr.cp)->use);
 	}
 	~Ptr(){
